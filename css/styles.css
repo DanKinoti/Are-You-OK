@@ -10,5 +10,17 @@
 }
 body{
     background-color:black;
+    color: turquoise;
 }
-
+h2 {
+    color: skyblue;
+    font-family: cursive;
+}
+h4 {
+    color: blue;
+}
+.col-md-6 {
+}
+footer {
+    text-align: center;
+}
