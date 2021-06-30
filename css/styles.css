@@ -1,0 +1,52 @@
+.eyoo{
+    text-align: center;
+        border: 15px turquoise;
+        outline:  10px;
+        margin: auto;  
+        padding: 20px;
+        text-align: center;
+        font-size:xx-large;
+        color: whitesmoke;
+}
+body{
+    background-color:grey;
+}
+
+.eyoo{
+    border-style: solid;
+    
+    border:solid rgb(10, 99, 90);
+    border-radius: 15px;
+    font: large;
+    color: black;
+    font-weight: bolder;
+}
+.aware{
+    border:solid rgb(10, 97, 88);
+    border-radius: 15px;
+    line-height: 20px;
+    font-size: large;
+    
+
+}
+.goku{
+    text-align: center;
+    text-decoration: underline;
+}
+.spanned{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.logo { 
+    width: auto;
+    height: auto;
+    padding:22.5px 0px 0px 10px;
+    padding-top: 2;
+}
+.logopic{
+    align-content: center;
+    
+}
+ul.li{
+    font-size: larger;
+}
