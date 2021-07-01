@@ -54,6 +54,7 @@
 
           <input type="submit" value="submit" class="submit" onclick="anxiousResult()">
           </form>
+        </div>
 
           <hr>
 
@@ -99,7 +100,51 @@
             <input type="submit" value="submit" class="submit" onclick="bipolarResult()">
             </form>
           </div>
-       </div>
+
+          <hr>
+
+          <div class="depression">
+            <div class="hideDepression">
+              <h2>Depression Test +</h2>
+            </div>
+            <form class="showDepression">
+              <div>
+                <h2>Have you lost appetite of late?</h2>
+                <label for="depression">Yes</label>
+                <input type="radio" name="bi1" class="depression" id="d1" value="Yes">
+                <label for="depression">No</label>
+                <input type="radio" name="bi1" class="depression" id="d2" value="No">
+              </div>
+
+              <div>
+                <h2>Do you tend to get suicidal thoughts every now and then?</h2>
+                <label for="depression">Yes</label>
+                <input type="radio" name="bi2" class="depression" id="d3" value="Yes">
+                <label for="depression">No</label>
+                <input type="radio" name="bi2" class="depression" id="d4" value="No">
+              </div>
+
+              <div>
+                <h2>Have you lost interest in things you considered to be fun?</h2>
+                <label for="depression">Yes</label>
+                <input type="radio" name="bi3" class="depression" id="d5" value="Yes">
+                <label for="depression">No</label>
+                <input type="radio" name="bi3" class="depression" id="d6" value="No">
+              </div>
+
+              <div>
+                <h2>Do you feel hopeless and guilty when you cant master your emotions?</h2>
+                <label for="depression">Frequently</label>
+                <input type="radio" name="bi4" class="depression" id="d7" value="Frequently">
+                <label for="depression">Never</label>
+                <input type="radio" name="bi" class="depression" id="d8" value="Never">
+                <label for="depression">Sometimes</label>
+                <input type="radio" name="bi" class="depression" id="d9" value="Sometimes">
+              </div>
+
+            <input type="submit" value="submit" class="submit" onclick="depressionResult()">
+            </form>
+          </div>
 
   </div>
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
