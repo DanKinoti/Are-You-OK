@@ -1,201 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital@1&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link href="css/bootstrap.css" rel="stylesheet">
   <link rel="stylesheet" href="css/test.css" type="text/css">
   <title>Are You okay test</title>
 </head>
+
 <body>
-  <h1>MENTAL AWARENESS TEST</h1>
+  <h1 style="text-align:center;">MENTAL AWARENESS TEST</h1>
   <hr>
-  <h2>Please fill in the form</h2>
-  <div>
-        <div class="Anxiety">
-          <div class="hideAnxiety">
-            <h2>Anxiety Test Disorder +</h2>
-          </div>
-          <form class="showAnxiety">
-            <div>
-              <h2>Do you feel helpless and dissociated when you can't find a solution to a problem?</h2>
-              <label for="anxious">Yes</label>
-              <input type="radio" name="anxious1" class="anxious" id="a1" value="Yes">
-              <label for="anxious">No</label>
-              <input type="radio" name="anxious1" class="anxious" id="a2" value="No">
-            </div>
-
-            <div>
-              <h2>Do you get insomnia frequently?</h2>
-              <label for="anxious">Yes</label>
-              <input type="radio" name="anxious2" class="anxious" id="a3" value="Yes">
-              <label for="anxious">No</label>
-              <input type="radio" name="anxious2" class="anxious" id="a4" value="No">
-            </div>
-
-            <div>
-              <h2>Do you legs tend to get weak and you hyperventilate(rapid breathing) when you can't control a situation?</h2>
-              <label for="anxious">Yes</label>
-              <input type="radio" name="anxious3" class="anxious" id="a5" value="Yes">
-              <label for="anxious">No</label>
-              <input type="radio" name="anxious3" class="anxious" id="a6" value="No">
-            </div>
-
-            <div>
-              <h2>How often do you get panic attacks?</h2>
-              <label for="anxious">Frequently</label>
-              <input type="radio" name="anxious4" class="anxious" id="a7" value="Frequently">
-              <label for="anxious">Never</label>
-              <input type="radio" name="anxious4" class="anxious" id="a8" value="Never">
-              <label for="anxious">Sometimes</label>
-              <input type="radio" name="anxious4" class="anxious" id="a9" value="Sometimes">
-            </div>
-
-          <input type="submit" value="submit" class="submit" onclick="anxiousResult()">
-          </form>
-          <div class="okayAnxious">
-            <h3>You MIght Be Okay!</h3>
-          </div>
+  <h2 style="text-align:center;">CLICK ANY TEST TO FIND OUT YOUR STATE</h2>
+  <div class=container>
+    <div class="Anxiety">
+      <div class="hideAnxiety">
+        <h2>Anxiety Disorder Test +</h2>
+      </div>
+      <form class="showAnxiety">
+        <div>
+          <h2>Do you feel helpless and dissociated when you can't find a solution to a problem?</h2>
+          <label for="anxious">Yes</label>
+          <input type="radio" name="anxious1" class="anxious" id="a1" value="Yes">
+          <label for="anxious">No</label>
+          <input type="radio" name="anxious1" class="anxious" id="a2" value="No">
         </div>
 
-          <hr>
+        <div>
+          <h2>Do you get insomnia frequently?</h2>
+          <label for="anxious">Yes</label>
+          <input type="radio" name="anxious2" class="anxious" id="a3" value="Yes">
+          <label for="anxious">No</label>
+          <input type="radio" name="anxious2" class="anxious" id="a4" value="No">
+        </div>
 
-          <div class="Bipolar">
-            <div class="hideBipolar">
-              <h2>Bipolar Test Disorder +</h2>
-            </div>
-            <form class="showBipolar">
-              <div>
-                <h2>Do you get distracted easily?</h2>
-                <label for="bipolar">Yes</label>
-                <input type="radio" name="bi1" class="bipolar" id="b1" value="Yes">
-                <label for="anxious">No</label>
-                <input type="radio" name="bi1" class="bipolar" id="b2" value="No">
-              </div>
+        <div>
+          <h2>Do you legs tend to get weak and you hyperventilate(rapid breathing) when you can't control a situation?</h2>
+          <label for="anxious">Yes</label>
+          <input type="radio" name="anxious3" class="anxious" id="a5" value="Yes">
+          <label for="anxious">No</label>
+          <input type="radio" name="anxious3" class="anxious" id="a6" value="No">
+        </div>
 
-              <div>
-                <h2>Do you tend to otherthink with slightest info given?</h2>
-                <label for="bipolar">Yes</label>
-                <input type="radio" name="bi2" class="bipolar" id="b3" value="Yes">
-                <label for="bipolar">No</label>
-                <input type="radio" name="bi2" class="bipolar" id="b4" value="No">
-              </div>
+        <div>
+          <h2>How often do you get panic attacks?</h2>
+          <label for="anxious">Frequently</label>
+          <input type="radio" name="anxious4" class="anxious" id="a7" value="Frequently">
+          <label for="anxious">Never</label>
+          <input type="radio" name="anxious4" class="anxious" id="a8" value="Never">
+          <label for="anxious">Sometimes</label>
+          <input type="radio" name="anxious4" class="anxious" id="a9" value="Sometimes">
+        </div>
 
-              <div>
-                <h2>Do you get instantly agitated?</h2>
-                <label for="bipolar">Yes</label>
-                <input type="radio" name="bi3" class="bipolar" id="b5" value="Yes">
-                <label for="bipolar">No</label>
-                <input type="radio" name="bi3" class="bipolar" id="b6" value="No">
-              </div>
+        <input type="submit" value="submit" class="submit" onclick="anxiousResult()">
+      </form>
+      <div class="okayAnxious">
+        <h3>You are Okay!</h3>
+      </div>
+    </div>
 
-              <div>
-                <h2>Do you become restless and implusive when provoked?</h2>
-                <label for="bipolar">Frequently</label>
-                <input type="radio" name="bi4" class="bipolar" id="b7" value="Frequently">
-                <label for="bipolar">Never</label>
-                <input type="radio" name="bi" class="bipolar" id="b8" value="Never">
-                <label for="bipolar">Sometimes</label>
-                <input type="radio" name="bi" class="bipolar" id="b9" value="Sometimes">
-              </div>
+    <hr>
 
-            <input type="submit" value="submit" class="submit" onclick="bipolarResult()">
-            </form>
-          </div>
+    <div class="Bipolar">
+      <div class="hideBipolar">
+        <h2>Bipolar Disorder Test +</h2>
+      </div>
+      <form class="showBipolar">
+        <div>
+          <h2>Do you get distracted easily?</h2>
+          <label for="bipolar">Yes</label>
+          <input type="radio" name="bi1" class="bipolar" id="b1" value="Yes">
+          <label for="anxious">No</label>
+          <input type="radio" name="bi1" class="bipolar" id="b2" value="No">
+        </div>
 
-          <hr>
+        <div>
+          <h2>Do you tend to otherthink with slightest info given?</h2>
+          <label for="bipolar">Yes</label>
+          <input type="radio" name="bi2" class="bipolar" id="b3" value="Yes">
+          <label for="bipolar">No</label>
+          <input type="radio" name="bi2" class="bipolar" id="b4" value="No">
+        </div>
 
-          <div class="Depression">
-            <div class="hideDepression">
-              <h2>Depression Disorder Test +</h2>
-            </div>
-            <form class="showDepression">
-              <div>
-                <h2>Have you lost appetite of late?</h2>
-                <label for="depression">Yes</label>
-                <input type="radio" name="bi1" class="depression" id="d1" value="Yes">
-                <label for="depression">No</label>
-                <input type="radio" name="bi1" class="depression" id="d2" value="No">
-              </div>
+        <div>
+          <h2>Do you get instantly agitated?</h2>
+          <label for="bipolar">Yes</label>
+          <input type="radio" name="bi3" class="bipolar" id="b5" value="Yes">
+          <label for="bipolar">No</label>
+          <input type="radio" name="bi3" class="bipolar" id="b6" value="No">
+        </div>
 
-              <div>
-                <h2>Do you tend to get suicidal thoughts every now and then?</h2>
-                <label for="depression">Yes</label>
-                <input type="radio" name="bi2" class="depression" id="d3" value="Yes">
-                <label for="depression">No</label>
-                <input type="radio" name="bi2" class="depression" id="d4" value="No">
-              </div>
+        <div>
+          <h2>Do you become restless and implusive when provoked?</h2>
+          <label for="bipolar">Frequently</label>
+          <input type="radio" name="bi4" class="bipolar" id="b7" value="Frequently">
+          <label for="bipolar">Never</label>
+          <input type="radio" name="bi" class="bipolar" id="b8" value="Never">
+          <label for="bipolar">Sometimes</label>
+          <input type="radio" name="bi" class="bipolar" id="b9" value="Sometimes">
+        </div>
 
-              <div>
-                <h2>Have you lost interest in things you considered to be fun?</h2>
-                <label for="depression">Yes</label>
-                <input type="radio" name="bi3" class="depression" id="d5" value="Yes">
-                <label for="depression">No</label>
-                <input type="radio" name="bi3" class="depression" id="d6" value="No">
-              </div>
+        <input type="submit" value="submit" class="submit" onclick="bipolarResult()">
+      </form>
+    </div>
 
-              <div>
-                <h2>Do you feel hopeless and guilty when you cant master your emotions?</h2>
-                <label for="depression">Frequently</label>
-                <input type="radio" name="bi4" class="depression" id="d7" value="Frequently">
-                <label for="depression">Never</label>
-                <input type="radio" name="bi" class="depression" id="d8" value="Never">
-                <label for="depression">Sometimes</label>
-                <input type="radio" name="bi" class="depression" id="d9" value="Sometimes">
-              </div>
+    <hr>
 
-            <input type="submit" value="submit" class="submit" onclick="depressionResult()">
-            </form>
-          </div>
+    <div class="Depression">
+      <div class="hideDepression">
+        <h2>Depression Disorder Test +</h2>
+      </div>
+      <form class="showDepression">
+        <div>
+          <h2>Have you lost appetite of late?</h2>
+          <label for="depression">Yes</label>
+          <input type="radio" name="bi1" class="depression" id="d1" value="Yes">
+          <label for="depression">No</label>
+          <input type="radio" name="bi1" class="depression" id="d2" value="No">
+        </div>
 
-          <hr>
+        <div>
+          <h2>Do you tend to get suicidal thoughts every now and then?</h2>
+          <label for="depression">Yes</label>
+          <input type="radio" name="bi2" class="depression" id="d3" value="Yes">
+          <label for="depression">No</label>
+          <input type="radio" name="bi2" class="depression" id="d4" value="No">
+        </div>
 
-          <div class="Schizophrenia">
-            <div class="hideSchizophrenia">
-              <h2>Schizophrenia Disorder Test +</h2>
-            </div>
-            <form class="showSchizophrenia">
-              <div>
-                <h2>Do you get distracted easily?</h2>
-                <label for="schizophrenia">Yes</label>
-                <input type="radio" name="bi1" class="schizophrenia" id="s1" value="Yes">
-                <label for="schizophrenia">No</label>
-                <input type="radio" name="bi1" class="schizophrenia" id="s2" value="No">
-              </div>
+        <div>
+          <h2>Have you lost interest in things you considered to be fun?</h2>
+          <label for="depression">Yes</label>
+          <input type="radio" name="bi3" class="depression" id="d5" value="Yes">
+          <label for="depression">No</label>
+          <input type="radio" name="bi3" class="depression" id="d6" value="No">
+        </div>
 
-              <div>
-                <h2>Do you tend to otherthink with slightest info given?</h2>
-                <label for="schizophrenia">Yes</label>
-                <input type="radio" name="bi2" class="schizophrenia" id="s3" value="Yes">
-                <label for="schizophrenia">No</label>
-                <input type="radio" name="bi2" class="schizophrenia" id="s4" value="No">
-              </div>
+        <div>
+          <h2>Do you feel hopeless and guilty when you cant master your emotions?</h2>
+          <label for="depression">Frequently</label>
+          <input type="radio" name="bi4" class="depression" id="d7" value="Frequently">
+          <label for="depression">Never</label>
+          <input type="radio" name="bi" class="depression" id="d8" value="Never">
+          <label for="depression">Sometimes</label>
+          <input type="radio" name="bi" class="depression" id="d9" value="Sometimes">
+        </div>
 
-              <div>
-                <h2>Do you get instantly agitated?</h2>
-                <label for="schizophrenia">Yes</label>
-                <input type="radio" name="bi3" class="schizophrenia" id="s5" value="Yes">
-                <label for="schizophrenia">No</label>
-                <input type="radio" name="bi3" class="schizophrenia" id="s6" value="No">
-              </div>
+        <input type="submit" value="submit" class="submit" onclick="depressionResult()">
+      </form>
+    </div>
 
-              <div>
-                <h2>Do you become restless and implusive when provoked?</h2>
-                <label for="schizophrenia">Frequently</label>
-                <input type="radio" name="bi4" class="schizophrenia" id="s7" value="Frequently">
-                <label for="schizophrenia">Never</label>
-                <input type="radio" name="bi" class="schizophrenia" id="s8" value="Never">
-                <label for="schizophrenia">Sometimes</label>
-                <input type="radio" name="bi" class="schizophrenia" id="s9" value="Sometimes">
-              </div>
+    <hr>
 
-            <input type="submit" value="submit" class="submit" onclick="schizophreniaResult()">
-            </form>
-          </div>
+    <div class="Schizophrenia">
+      <div class="hideSchizophrenia">
+        <h2>Schizophrenia Disorder Test +</h2>
+      </div>
+      <form class="showSchizophrenia">
+        <div>
+          <h2>Do you get distracted easily?</h2>
+          <label for="schizophrenia">Yes</label>
+          <input type="radio" name="bi1" class="schizophrenia" id="s1" value="Yes">
+          <label for="schizophrenia">No</label>
+          <input type="radio" name="bi1" class="schizophrenia" id="s2" value="No">
+        </div>
+
+        <div>
+          <h2>Do you tend to otherthink with slightest info given?</h2>
+          <label for="schizophrenia">Yes</label>
+          <input type="radio" name="bi2" class="schizophrenia" id="s3" value="Yes">
+          <label for="schizophrenia">No</label>
+          <input type="radio" name="bi2" class="schizophrenia" id="s4" value="No">
+        </div>
+
+        <div>
+          <h2>Do you get instantly agitated?</h2>
+          <label for="schizophrenia">Yes</label>
+          <input type="radio" name="bi3" class="schizophrenia" id="s5" value="Yes">
+          <label for="schizophrenia">No</label>
+          <input type="radio" name="bi3" class="schizophrenia" id="s6" value="No">
+        </div>
+
+        <div>
+          <h2>Do you become restless and implusive when provoked?</h2>
+          <label for="schizophrenia">Frequently</label>
+          <input type="radio" name="bi4" class="schizophrenia" id="s7" value="Frequently">
+          <label for="schizophrenia">Never</label>
+          <input type="radio" name="bi" class="schizophrenia" id="s8" value="Never">
+          <label for="schizophrenia">Sometimes</label>
+          <input type="radio" name="bi" class="schizophrenia" id="s9" value="Sometimes">
+        </div>
+
+        <input type="submit" value="submit" class="submit" onclick="schizophreniaResult()">
+      </form>
+      <br><br>
+      <div class="disclaimer">
+        <h1>DISCLAIMER</h1>
+        <p>The Site cannot and does not contain medical advice.<br> The medical information is provided for general informational and educational purposes only and is not a substitute for professional advice.<br>
+
+          Accordingly, before taking any actions based upon such information, we encourage you to consult with the appropriate professionals.<br> We do not provide any kind of medical advice.<br> The use or reliance of any information contained on
+          this site is solely at your own risk.
+
+        </p>
+      </div>
+    </div>
 
   </div>
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
   <script src="js/scripts.js"></script>
 </body>
+
 </html>
