@@ -32,6 +32,8 @@ body{
 .goku{
     text-align: center;
     text-decoration: underline;
+    line-height: 30px;
+
 }
 .spanned{
     text-decoration: underline;
@@ -49,4 +51,11 @@ body{
 }
 ul.li{
     font-size: larger;
+}
+.loki{
+
+    border:solid turquoise;
+    border-radius: 15px;
+    
+
 }
