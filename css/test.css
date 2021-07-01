@@ -1,0 +1,18 @@
+.hideAnxiety {
+    border-radius: 10px;
+    background-color: turquoise;
+    padding: 5px;
+    width: 150px;
+}
+.hideBipolar {
+    border-radius: 10px;
+    background-color: turquoise;
+    padding: 5px;
+    width: 150px;
+}
+.showAnxiety {
+    display: none;
+}
+.showBipolar {
+    display: none;
+}
