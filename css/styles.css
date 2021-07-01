@@ -131,3 +131,27 @@ u{
     border: solid;
     border-radius: 15px;
 }
+.polarpic{
+    border: solid;
+    border-radius: 15px;
+}
+.button{
+    font-size: 26px;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    background-color: turquoise;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    float: right;
+}
+.button:hover{
+    background-color: black;
+}
+.button:active{
+    background-color: cornflowerblue;
+    box-shadow: 0 5px #666;
+  transform: translateY(4px);
+
+}
