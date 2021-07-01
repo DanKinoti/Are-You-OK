@@ -8,17 +8,47 @@
         font-size:larger;
         color: whitesmoke;
 }
-body{
-    background-color:black;
-    color: turquoise;
+body {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  background: linear-gradient(-45deg, #dae4e5, #94c0c2, #296e6b, #2b4a4a);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
 }
-h2 {
-    color: skyblue;
-    font-family: cursive;
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
-h4 {
-    color: blue;
+
 }
 footer {
     text-align: center;
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+  width:auto;
+}
+
+ .navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
 }
