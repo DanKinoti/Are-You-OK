@@ -14,9 +14,13 @@ function anxiousResult () {
         score++;
     };
     if (score >= 3) {
-        alert('YOU ARE NOT OKAY! You might be experiencing ANXIETY kindly visit this place! ')
-    }
-    else {
-        alert('Heey YOU ARE OKAY.');
+        alert('YOU MIGHT NOT BE OKAY! You might be experiencing anxiety kindly visit this place!');
+    };
+    if (score >0 && score <3){
+        alert('YOU MIGHT BE OKAY!');
+    };
+    if (document.getElementsByClassName('anxious').not-checked){
+        alert('Kindly fill in all fields!!');
+        return false;
     };
  };
