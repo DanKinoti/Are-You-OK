@@ -8,8 +8,6 @@ h1 {
     color: rgb(255, 169, 136);
     font-size: 50px;
 }
-body{
-    background-color:skyblue;
 }
 img {
     align-self: center;
@@ -20,6 +18,27 @@ img {
     font: large;
     color: black;
     font-weight: bolder;
+body {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  background: linear-gradient(-45deg, #dae4e5, #94c0c2, #296e6b, #2b4a4a);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 }
 
 footer {
@@ -41,11 +60,11 @@ footer {
 }
 .logopic{
     align-content: center;
-    
+
 }
 ul.li{
     font-size: larger;
-    
+
 }
 .loki{
 
@@ -58,8 +77,8 @@ ul.li{
     position:fixed;
     top: 0;
     width: fit-content;
-    
-    
+
+
 }
 .navbar a{
     display: block;
@@ -76,7 +95,7 @@ a:hover{
 .logo{
     height: auto;
     border-radius: 15px;
-    
+
 }
 header{
     padding-bottom: 40px;
@@ -93,13 +112,13 @@ header{
     padding: 30px;
     padding-top: 50px;
     padding-bottom: 50px;
-    
+    margin-top: 80px;
 }
 .goku{
     text-decoration:underline;
     color: rgb(21, 231, 210);
     font: bolder;
-    
+
 }
 h2{
     text-align: center;
@@ -129,4 +148,23 @@ u{
 .schizo{
     border: solid;
     border-radius: 15px;
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+  width:auto;
+}
+
+ .navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
 }
