@@ -11,7 +11,9 @@ h1 {
 body{
     background-color:skyblue;
 }
-
+img {
+    align-self: center;
+}
 .eyoo{
     border-style: solid;
     border-radius: 15px;
