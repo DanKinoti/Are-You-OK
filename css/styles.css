@@ -5,7 +5,7 @@
     color: whitesmoke;
 }
 h1 {
-    color: turquoise;
+    color: rgb(255, 169, 136);
     font-size: 50px;
 }
 body{
@@ -14,7 +14,6 @@ body{
 
 .eyoo{
     border-style: solid;
-    border:solid rgb(10, 99, 90);
     border-radius: 15px;
     font: large;
     color: black;
@@ -86,7 +85,6 @@ header{
     color: white;
 }
 .effects{
-    border:solid rgb(82, 109, 106);
     border-radius: 15px;
     background-color:rgb(139, 139, 255);
     margin-top: 30px;
