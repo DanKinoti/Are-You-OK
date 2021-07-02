@@ -1,10 +1,23 @@
 
 .eyoo{
     text-align: center;
-        text-align: center;
-        font-size:xx-large;
-        color: whitesmoke;
+    font-size: 100px;
+    color: whitesmoke;
 }
+h1 {
+    color: rgb(255, 169, 136);
+    font-size: 50px;
+}
+}
+img {
+    align-self: center;
+}
+.eyoo{
+    border-style: solid;
+    border-radius: 15px;
+    font: large;
+    color: black;
+    font-weight: bolder;
 body {
   font-family: 'Barlow Semi Condensed', sans-serif;
   background: linear-gradient(-45deg, #dae4e5, #94c0c2, #296e6b, #2b4a4a);
@@ -39,10 +52,10 @@ footer {
     font-weight: bolder;
     color:turquoise;
 }
-.logo {
-    width: auto;
+.logo { 
+    width: 70vw;
     height: auto;
-    padding:22.5px 0px 0px 10px;
+    padding: 5px 0px 0px 10px;
     padding-top: 2;
 }
 .logopic{
@@ -80,25 +93,26 @@ a:hover{
     background-color:burlywood;
 }
 .logo{
-    width:280px;
-    height: 40vh;
+    height: auto;
     border-radius: 15px;
 
 }
 header{
-    padding-bottom: 440px;
-
+    padding-bottom: 40px;
+    
 }
 .something{
-    background-color: grey;
+    background-color: skyblue;
     color: white;
 }
 .effects{
-    border:solid rgb(82, 109, 106);
     border-radius: 15px;
-    background-color:rgb(150, 143, 143);
+    background-color:rgb(139, 139, 255);
+    margin-top: 30px;
+    padding: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     margin-top: 80px;
-
 }
 .goku{
     text-decoration:underline;
