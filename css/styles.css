@@ -9,7 +9,7 @@ h1 {
     font-size: 50px;
 }
 body{
-    background-color:grey;
+    background-color:skyblue;
 }
 
 .eyoo{
@@ -19,7 +19,6 @@ body{
     font: large;
     color: black;
     font-weight: bolder;
-    font-size: xx-large;
 }
 
 footer {
@@ -83,14 +82,17 @@ header{
     
 }
 .something{
-    background-color: grey;
+    background-color: skyblue;
     color: white;
 }
 .effects{
     border:solid rgb(82, 109, 106);
     border-radius: 15px;
-    background-color:rgb(150, 143, 143);
-    margin-top: 80px;
+    background-color:rgb(139, 139, 255);
+    margin-top: 30px;
+    padding: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     
 }
 .goku{
