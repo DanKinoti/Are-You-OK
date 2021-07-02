@@ -14,7 +14,7 @@ function anxiousResult () {
         score++;
     };
     if (score >= 3) {
-        alert('YOU MIGHT NOT BE OKAY! You might be experiencing anxiety kindly visit this place!');
+        alert('YOU MIGHT NOT BE OKAY! You might be experiencing anxiety kindly');
     };
     if (score >=0 && score <3){
         alert('YOU MIGHT BE OKAY!');
@@ -40,7 +40,7 @@ function bipolarResult () {
         score++;
     };
     if (score >= 3) {
-        alert('YOU MIGHT NOT BE OKAY! You might be experiencing bipolar disorder kindly visit this place!');
+        alert('YOU MIGHT NOT BE OKAY! You might be experiencing bipolar disorder');
     };
     if (score >=0 && score <3){
         alert('YOU MIGHT BE OKAY!');
@@ -65,7 +65,7 @@ function depressionResult () {
         score++;
     };
     if (score >= 3) {
-        alert('YOU MIGHT NOT BE OKAY! You might be experiencing Depression kindly visit this place!');
+        alert('YOU MIGHT NOT BE OKAY! You might be experiencing Depression');
     };
     if (score >=0 && score <3){
         alert('YOU MIGHT BE OKAY!');
@@ -84,21 +84,21 @@ function schizophreniaResult () {
         score++;
     };
     if (document.getElementById('s5').checked) {
-        score++; 
+        score++;
     };
     if (document.getElementById('s7').checked) {
         score++;
     };
     if (score >= 3) {
-        alert('YOU MIGHT NOT BE OKAY! You might be experiencing Schizophrenia kindly visit this place!');
+        alert('YOU MIGHT NOT BE OKAY! You might be experiencing Schizophrenia');
     };
     if (score >=0 && score <3){
         alert('YOU MIGHT BE OKAY!');
     };
-    if (document.getElementsByClassName('Schizophrenia').not-checked){ 
+    if (document.getElementsByClassName('Schizophrenia').not-checked){
         alert('Kindly fill in all fields!!');
         return false;
-    }; 
+    };
  };
 
 
