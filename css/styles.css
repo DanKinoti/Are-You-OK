@@ -1,9 +1,12 @@
 
 .eyoo{
     text-align: center;
-        text-align: center;
-        font-size:xx-large;
-        color: whitesmoke;
+    font-size: 100px;
+    color: whitesmoke;
+}
+h1 {
+    color: turquoise;
+    font-size: 50px;
 }
 body{
     background-color:grey;
@@ -11,7 +14,6 @@ body{
 
 .eyoo{
     border-style: solid;
-    
     border:solid rgb(10, 99, 90);
     border-radius: 15px;
     font: large;
@@ -34,7 +36,7 @@ footer {
 .logo { 
     width: auto;
     height: auto;
-    padding:22.5px 0px 0px 10px;
+    padding: 5px 0px 0px 10px;
     padding-top: 2;
 }
 .logopic{
@@ -72,13 +74,12 @@ a:hover{
     background-color:burlywood;
 }
 .logo{
-    width:280px;
-    height: 40vh;
+    height: auto;
     border-radius: 15px;
     
 }
 header{
-    padding-bottom: 440px;
+    padding-bottom: 40px;
     
 }
 .something{
